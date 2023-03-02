@@ -354,14 +354,14 @@
 
 @media screen and (max-width: 750px) {
   .works_images .pc_bg {
-    width: 200px;
-    height: 120px;
+    width: 270px;
+    height: 160px;
     transition: 0.4s;
   }
 
   .works_images .mobile_bg {
-    width: 50px;
-    height: 100px;
+    width: 70px;
+    height: 140px;
     transition: 0.4s;
   }
 }

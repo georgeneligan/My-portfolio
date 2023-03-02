@@ -140,16 +140,17 @@ main .left_section_wrapper .left .left_navigation_fixed {
   box-shadow: 0px 0px 10px -4px black;
 }
 
-main .left_section_wrapper .left .avatar_wrapper {
-  background-image: url(../assets/img/avatar.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.main .left_section_wrapper .left .avatar_wrapper {
+  width: 100%;
+}
+
+main .left_section_wrapper .left .avatar_wrapper a img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
   margin: 20px auto;
   border: solid 5px rgb(78, 77, 77);
+  display: flex;
 }
 
 main .left_section_wrapper .left .nav_wrapper {
