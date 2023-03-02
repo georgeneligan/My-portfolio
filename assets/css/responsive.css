@@ -381,7 +381,15 @@
   }
 
   main .right .about_wrapper h1,
-  main .right .about_wrapper span,
+  main .right .about_wrapper span {
+    font-size: 25px;
+    text-align: center;
+  }
+  main .right .about_wrapper p,
+  main .right .about_wrapper p span {
+    font-size: 15px;
+    text-align: center;
+  }
   .skills_wrapper h1,
   .portfolio_wrapper h1,
   .education_wrapper h1,
@@ -389,15 +397,7 @@
     font-size: 25px;
     text-align: center;
   }
-  main .right .about_wrapper p,
-  main .right .about_wrapper p span,
-  .skills_wrapper p,
-  .portfolio_wrapper p,
-  .education_wrapper p,
-  .contact_wrapper p {
-    font-size: 15px;
-    text-align: center;
-  }
+
   .skills_wrapper p,
   .portfolio_wrapper p,
   .education_wrapper p,
