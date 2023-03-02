@@ -244,9 +244,13 @@
     font-size: 20px;
   }
 
-  main .left_section_wrapper .left .avatar_wrapper {
+  main .left_section_wrapper .left .avatar_wrapper a img {
     width: 60px;
     height: 60px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   main .left_section_wrapper .left .left_footer .social .social_icons {
@@ -356,12 +360,182 @@
   .works_images .pc_bg {
     width: 270px;
     height: 160px;
-    transition: 0.4s;
   }
 
   .works_images .mobile_bg {
     width: 70px;
     height: 140px;
-    transition: 0.4s;
+  }
+  .technology_right {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main .right .about_wrapper,
+  .skills_wrapper,
+  .portfolio_wrapper,
+  .education_wrapper,
+  .contact_wrapper {
+    width: 90%;
+  }
+
+  main .right .about_wrapper h1,
+  main .right .about_wrapper span,
+  .skills_wrapper h1,
+  .portfolio_wrapper h1,
+  .education_wrapper h1,
+  .contact_wrapper h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  main .right .about_wrapper p,
+  main .right .about_wrapper p span,
+  .skills_wrapper p,
+  .portfolio_wrapper p,
+  .education_wrapper p,
+  .contact_wrapper p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .skills_wrapper p,
+  .portfolio_wrapper p,
+  .education_wrapper p,
+  .contact_wrapper p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .skills_container {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .skills_container .skills_left,
+  .skills_container .skills_right {
+    width: 300px;
+    height: 250px;
+  }
+  .skills_container .skills_left p,
+  .skills_container .skills_right p {
+    font-size: 10px;
+  }
+  .skills_container div h3 {
+    font-size: 17px;
+  }
+
+  .skills_title {
+    gap: 230px;
+  }
+
+  .skills_title_css {
+    gap: 224px;
+  }
+
+  .skills_title_javascript {
+    gap: 78px;
+  }
+
+  .skills_title_bootstrap {
+    gap: 167px;
+  }
+
+  .skills_title_angular {
+    gap: 58px;
+  }
+
+  .skills_title_photoshop {
+    gap: 143px;
+  }
+  .skills_title_premierpro {
+    gap: 20px;
+  }
+
+  .skills_title_lightroom {
+    gap: 13px;
+  }
+
+  .skills_title_photography {
+    gap: 93px;
+  }
+
+  .skills_title_videography {
+    gap: 34px;
+  }
+  .works_images .pc_bg {
+    width: 214px;
+    height: 122px;
+    margin-left: -20px;
+  }
+
+  .works_images .mobile_bg {
+    width: 52px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .skills_container .skills_left,
+  .skills_container .skills_right {
+    width: 240px;
+  }
+  .skills_container .skills_left p,
+  .skills_container .skills_right p {
+    font-size: 10px;
+  }
+  .skills_container div h3 {
+    font-size: 17px;
+  }
+
+  .skills_title {
+    gap: 178px;
+  }
+
+  .skills_title_css {
+    gap: 176px;
+  }
+
+  .skills_title_javascript {
+    gap: 50px;
+  }
+
+  .skills_title_bootstrap {
+    gap: 120px;
+  }
+
+  .skills_title_angular {
+    gap: 35px;
+  }
+
+  .skills_title_photoshop {
+    gap: 95px;
+  }
+  .skills_title_premierpro {
+    gap: 5px;
+  }
+
+  .skills_title_lightroom {
+    gap: 5px;
+  }
+
+  .skills_title_photography {
+    gap: 60px;
+  }
+
+  .skills_title_videography {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .works_images .pc_bg {
+    width: 190px;
+    height: 110px;
+    margin-left: -20px;
+  }
+
+  .works_images .mobile_bg {
+    width: 45px;
+    height: 90px;
   }
 }
