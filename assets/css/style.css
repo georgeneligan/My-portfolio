@@ -750,8 +750,8 @@ main .right .about_wrapper div button:hover {
 
 .education_sertificate {
   margin-top: 40px;
-  height: 400px;
-  width: 35%;
+  height: 411px;
+  width: 300px;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
