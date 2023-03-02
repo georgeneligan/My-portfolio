@@ -141,7 +141,7 @@ main .left_section_wrapper .left .left_navigation_fixed {
 }
 
 main .left_section_wrapper .left .avatar_wrapper {
-  background-image: url(/assets/img/avatar.jpg);
+  background-image: url(../assets/img/avatar.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
