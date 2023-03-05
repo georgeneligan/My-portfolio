@@ -228,6 +228,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .main .left_section_wrapper .left .avatar_wrapper {
+    margin-left: 10px;
+  }
   main .left_section_wrapper .left .left_navigation_fixed {
     width: 80px;
     display: grid;
@@ -435,17 +438,17 @@
     position: relative;
     display: flex;
     width: 100%;
-transform: scale();
     visibility: hidden;
-    transform: translateX(-100%);
-    -webkit-transform: translateX(-0%);
+    opacity: 0;
+    transition: 1.1s;
   }
 
   main .left_section_wrapper .left .nav_wrapper nav {
     padding: 15px 40px;
     background-color: rgba(0, 0, 0, 0.774);
     border-radius: 40px;
-    width: 70%;
+    width: 60%;
+
     margin: -24px auto;
   }
 
@@ -461,7 +464,7 @@ transform: scale();
   main .left_section_wrapper .left .nav_wrapper nav ul li a {
     padding: 7px;
     opacity: 0.5;
-    color: white;
+    color: white !important;
   }
   main .left_section_wrapper .left .nav_wrapper nav ul li a i {
     font-size: 15px;
@@ -664,21 +667,5 @@ transform: scale();
   .education_sertificate {
     height: 330px;
     width: 225px;
-  }
-}
-
-@media screen and (max-height: 521px) {
-  main .left_section_wrapper .left .nav_wrapper {
-    margin-top: 65vh;
-    position: relative;
-    display: flex;
-  }
-}
-
-@media screen and (max-height: 450px) {
-  main .left_section_wrapper .left .nav_wrapper {
-    margin-top: 60vh;
-    position: relative;
-    display: flex;
   }
 }

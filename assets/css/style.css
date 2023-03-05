@@ -848,3 +848,11 @@ main .right .about_wrapper div button:hover {
   color: var(--default-color);
   font-family: var(--primary-font);
 }
+
+.activemenu {
+  transition: 1.1s;
+  visibility: visible !important;
+  width: 70%;
+  transform: scale(1.2);
+  opacity: 1 !important;
+}

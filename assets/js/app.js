@@ -7,17 +7,9 @@ let navWrapper = document.querySelector(
 let menuIcon = document.querySelector(".fa-bars");
 
 MenuButton.addEventListener("click", () => {
-  if (navWrapper.style.visibility != "visible") {
-    navWrapper.style.visibility = "visible";
-
-    menuIcon.classList.remove("fa-bars");
-    menuIcon.classList.add("fa-xmark");
-  } else if (navWrapper.style.visibility == "visible") {
-    navWrapper.style.visibility = "hidden";
-
-    menuIcon.classList.remove("fa-xmark");
-    menuIcon.classList.add("fa-bars");
-  }
+  navWrapper.classList.toggle("activemenu");
+  menuIcon.classList.toggle("fa-bars");
+  menuIcon.classList.toggle("fa-xmark");
 });
 
 window.addEventListener("scroll", () => {
