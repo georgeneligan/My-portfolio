@@ -811,6 +811,7 @@ main .right .about_wrapper div button:hover {
   font-size: 12px;
   font-family: var(--primary-font);
   margin-bottom: 20px;
+  margin-top: 190px;
 }
 
 .contact_wrapper h1 {
@@ -825,7 +826,7 @@ main .right .about_wrapper div button:hover {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
-  padding-bottom: 450px;
+  padding-bottom: 420px;
 }
 
 .contact_wrapper .contact_info ul {
