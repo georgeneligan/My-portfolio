@@ -13,13 +13,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #212428; */
-  background: rgb(2, 32, 15);
-  background: radial-gradient(
-    circle,
-    rgba(2, 32, 15, 1) 0%,
-    rgba(11, 60, 3, 1) 100%
-  );
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
 }
 html {
   scroll-behavior: smooth;
@@ -155,12 +151,9 @@ main .left_section_wrapper .left .left_navigation_fixed {
   height: 100vh;
   top: 0;
   box-shadow: 0px 0px 10px -4px black;
-  background: rgb(2, 32, 15);
-  background: radial-gradient(
-    circle,
-    rgba(2, 32, 15, 1) 0%,
-    rgba(11, 60, 3, 1) 100%
-  );
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
 }
 
 .main .left_section_wrapper .left .avatar_wrapper {
