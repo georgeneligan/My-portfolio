@@ -428,15 +428,18 @@
     margin-left: 15px;
   }
   main .left_section_wrapper .left .nav_wrapper {
-    margin-top: 65vh;
+    margin-top: 75vh;
     position: relative;
     display: flex;
+    width: 100%;
   }
 
   main .left_section_wrapper .left .nav_wrapper nav {
     padding: 15px 40px;
     background-color: rgba(0, 0, 0, 0.774);
     border-radius: 40px;
+    width: 70%;
+    margin: 0 auto;
   }
 
   main .left_section_wrapper .left .nav_wrapper nav ul {
